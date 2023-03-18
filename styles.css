@@ -166,3 +166,12 @@ a {
     font-weight: 600;
     font-size: 15px;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    height: 75px;
+}
