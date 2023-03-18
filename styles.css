@@ -8,7 +8,7 @@ body{
 
 .hero {
     background-color: #1F2937;
-    height: 400px;
+    height: 500px;
     color: white;
 }
 
@@ -22,8 +22,9 @@ a {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5px 100px;
+    padding: 0px 100px;
     margin-bottom: 50px;
+
     
 }
 
@@ -41,4 +42,35 @@ a {
     list-style: none;
     margin: 0 10px;
     
+}
+
+.maintext {
+    display: flex;
+    padding: 0 100px;
+
+    justify-content: space-around;
+
+}
+
+.text-hero h1 {
+   font-size: 48px; 
+   margin-bottom: 5px;
+}
+
+.text-hero button {
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.img-placeholder {
+    width: 500px;
+    background-color: gray;
+    height: 225px;
+    opacity: 0.2;
 }
