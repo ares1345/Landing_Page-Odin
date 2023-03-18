@@ -80,23 +80,26 @@ a {
 }
 
 .information h1{
-    margin: 30px 30px;
+    margin: 25px 30px;
 
 }
 
 .info-container {
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
+    flex-wrap: wrap;
 }
 
 .info-placeholder {
     border: #3882F6 solid 2px;
-    height: 300px;
-    width: 300px;
+    height: 100px;
+    width: 100px;
     border-radius: 5px;
+    margin-bottom: 10px;
 }
 
 .info{
-    max-width: 200px;
+    max-width: 100px;
+    font-size: 15px
 }
