@@ -47,7 +47,7 @@ a {
 .maintext {
     display: flex;
     padding: 0 100px;
-
+    margin-top: 75px;
     justify-content: space-around;
 
 }
@@ -73,4 +73,30 @@ a {
     background-color: gray;
     height: 225px;
     opacity: 0.2;
+}
+
+.information {
+    text-align: center;
+}
+
+.information h1{
+    margin: 30px 30px;
+
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.info-placeholder {
+    border: #3882F6 solid 2px;
+    height: 300px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.info{
+    max-width: 200px;
 }
